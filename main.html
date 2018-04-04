@@ -6,13 +6,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Comercias</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <!--inicio modulo de header-->
+    <section class="container-fluid headermoca">
+        <!--modulo de menu-->
+        <div class="container-fluid menumoca">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light sudmenumoca">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo-comerci.png" width="120" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active m-2">
+                                <a class="nav-link linkmenublanco" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item m-2">
+                                <a class="nav-link linkmenublanco" href="#">Quienes somos</a>
+                            </li>
+                            <li class="nav-item m-2">
+                                <a class="nav-link linkmenublanco" href="#">Servicios</a>
+                            </li>
+                            <li class="nav-item m-2">
+                                <a class="nav-link linkmenublanco" href="#">Contactanos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container h-90 d-flex justify-content-center align-items-center flex-column ">
+            <div  class="text-white text-center">
+                <h1 class="display-1 font-weight-bold">Compra Facil</h1>
+                <h5>ENCUENTRA LO QUE NESESITAS A POCOS CLICKS Y COMPRALO FACIL</h5>
+               <hr>
+               <p>Somo uno de los primeros </p>
+            </div>
+            <a class="btnacctionoff" href="#">Contactanos</a>
+        </div>    
+    </section><!--Fin modulo de header-->
+    <!--inicio MODULO DE QUIENES SOMOS-->
+    <section class="container-fluid full100 d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="images/cli.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col d-flex flex-column justify-content-center">
+                    <span class="lco">BIENVENIDO A COMERCIAS</span>
+                    <h2 class="display-4">QUIENES SOMOS</h2>
+                    <p>Our progressive team of professionals has over 15 years of experience in digital business and consulting that gives us a unique advantage in providing professional services to companies across a broad range of industries.
+                    <br>We deliver results-oriented and cost-effective marketing and business development solutions to help companies maximize revenue and grow.</p>
+                </div>
+            </div>
+        </div>
+    </section><!--fin MODULO DE QUINES SOMOS-->
+    <!--inicio MODULO DE SERVICIOS-->
+    <section class="container-fluid fplomo d-flex flex-column justify-content-center align-items-center pt-5 pb-5">
+        <div class="container d-flex flex-column justify-content-center align-items-center pt-5 pb-5">
+            <span class="lco">YOU WILL LIKE IT</span>
+            <h2 class="display-4">Why Choose Us</h2>
+            <p class="text-center">We don’t clutter our communication to make it seem more complex than they really are. We prefer to keep our language and our solutions 
+            friendly, simple and effective.</p>
+            <ul class="row">
+                <div class="col text-center">
+                    <div class="servimoca">
+                        <i class="material-icons">flip_to_back</i>
+                    </div>
+                    <h5>We’re experienced</h5>
+                    <p>We are experienced professionals who will not only meet, but exceed, your expectations.</p>
+                </div>
+                <div class="col text-center">
+                    <div class="servimoca">
+                        <i class="material-icons">swap_horiz</i>
+                    </div>
+                    <h5>We’re experienced</h5>
+                    <p>We are experienced professionals who will not only meet, but exceed, your expectations.</p>
+                </div>
+                <div class="col text-center">
+                    <div class="servimoca">
+                        <i class="material-icons">headset_mic</i>
+                    </div>
+                    <h5>We’re experienced</h5>
+                    <p>We are experienced professionals who will not only meet, but exceed, your expectations.</p>
+                </div>
+                <div class="col text-center">
+                    <div class="servimoca">
+                        <i class="material-icons">security</i>
+                    </div>
+                    <h5>We’re experienced</h5>
+                    <p>We are experienced professionals who will not only meet, but exceed, your expectations.</p>
+                </div>
+        </ul>
+        </div>
+    </section><!--fin MODULO DE SERVICIOS-->
+    <!--inicio MODULO DE CONTACTANOS-->
+    <section class="container-fluid bg-light d-flex flex-column justify-content-center align-items-center pt-5 pb-5">
+        <div class="container d-flex flex-column justify-content-center align-items-center pt-5 pb-5">
+            <h2 class="display-4">Contact Us</h2>
+            <p class="text-center">If you have any questions, please fill out the form below.</p>
+            <form class="contac text-center">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre *">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email *">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje *"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
 
+    <!--fin MODULO DE CONTACTANOS-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
